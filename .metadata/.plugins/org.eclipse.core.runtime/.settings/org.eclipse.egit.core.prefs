@@ -1,0 +1,5 @@
+GitRepositoriesView.GitDirectories=/Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/git/SA44/.git\:/Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/.git\:/Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/HelloWorld/.git\:/Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/Java Workshops/.git\:
+GitRepositoriesView.GitDirectories.relative=git/SA44/.git\:.git\:HelloWorld/.git\:Java Workshops/.git\:
+core_defaultRepositoryDir=/Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/git
+core_preferredMergeStrategy=jgit-default-mergeStrategy
+eclipse.preferences.version=1

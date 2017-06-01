@@ -1,0 +1,5 @@
+package com.leonardchow.jdbc;
+
+public class StudentJDBC {
+
+}

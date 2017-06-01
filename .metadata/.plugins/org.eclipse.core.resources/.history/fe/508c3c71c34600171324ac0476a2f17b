@@ -1,0 +1,24 @@
+package com.leonardchow.apptest;
+
+import javax.persistence.EntityManager;
+
+import com.leonardchow.model.Member;
+import com.leonardchow.persistence.PersistenceManager;
+
+public class TestMemberByJPA {
+
+	public static void main(String[] args) {
+		
+		EntityManager em = PersistenceManager.INSTANCE.getEntityManager();
+		em.getTransaction().begin();
+//		Member simon = em.find(Member.class, 12);
+//		em.remove(simon);
+		em.persist(new Member("KarrineAAAA", "Tstue", "LAAAA"));
+		em.getTransaction().commit();
+
+		em.close();
+		PersistenceManager.INSTANCE.close();
+
+	}
+
+}

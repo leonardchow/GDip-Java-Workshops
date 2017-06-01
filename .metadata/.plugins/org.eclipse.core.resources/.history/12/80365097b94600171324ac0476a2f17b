@@ -1,0 +1,5 @@
+package com.leonardchow.model;
+
+public class Member {
+
+}

@@ -1,0 +1,5 @@
+package com.leonardchow.persistence;
+
+public class PersistenceManager {
+
+}

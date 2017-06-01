@@ -1,0 +1,10 @@
+package com.leonardchow.model;
+
+public class Member {
+	
+	private int id;
+	private String surname;
+	private String firstName;
+	private String secondName;
+	
+}

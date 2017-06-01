@@ -1,0 +1,33 @@
+package com.leonardchow.apptest;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityNotFoundException;
+
+import com.leonardchow.model.Member;
+import com.leonardchow.persistence.PersistenceManager;
+
+public class TestMemberByJPA {
+
+	public static void main(String[] args) {
+		
+		EntityManager em = PersistenceManager.INSTANCE.getEntityManager();
+		em.getTransaction().begin();
+//		try {			
+//			Member toRemove = em.getReference(Member.class, 18);
+//			em.remove(toRemove);
+//		} catch (EntityNotFoundException ef) {
+//			System.out.println("=*=*=*=* Could not find entity of that ID.");
+//		}
+
+		Member toUpdate = em.getReference(Member.class, 17);
+		toUpdate.setSecondName("Potato");
+//		Member simon = em.find(Member.class, 12);
+//		em.persist(new Member("KarrineAAAA", "Tstue", "LAAAA"));
+		em.getTransaction().commit();
+
+		em.close();
+		PersistenceManager.INSTANCE.close();
+
+	}
+
+}
