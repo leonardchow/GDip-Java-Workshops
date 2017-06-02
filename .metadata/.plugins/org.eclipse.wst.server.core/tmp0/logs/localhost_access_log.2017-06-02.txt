@@ -1,0 +1,15 @@
+127.0.0.1 - - [02/Jun/2017:17:40:39 +0800] "GET / HTTP/1.1" 404 1081
+127.0.0.1 - - [02/Jun/2017:17:58:23 +0800] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:58:23 +0800] "GET /DemoWebJEE/ServletOne HTTP/1.1" 200 191
+127.0.0.1 - - [02/Jun/2017:17:58:52 +0800] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:58:53 +0800] "GET /DemoWebJEE/ServletOne HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:59:02 +0800] "GET /DemoWebJEE/ServletOne?A=hello&B=Bye HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:59:04 +0800] "GET /DemoWebJEE/ServletOne?A=hello&b=Bye HTTP/1.1" 200 170
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:59:06 +0800] "GET /DemoWebJEE/ServletOne?A=hello&B=Bye HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:59:11 +0800] "GET /src/client/ HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:17:59:11 +0800] "GET /favicon.ico HTTP/1.1" 404 1092
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:18:28:51 +0800] "GET /DemoWebJEE/ServletOne?A=hello&B=Bye HTTP/1.1" 200 291
+127.0.0.1 - - [02/Jun/2017:18:29:22 +0800] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:18:29:24 +0800] "GET /DemoWebJEE/ServletOne?A=hello&B=Bye HTTP/1.1" 200 176
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:18:29:34 +0800] "GET /DemoWebJEE/ServletOne?A=hello&B=Bye HTTP/1.1" 200 185
+0:0:0:0:0:0:0:1 - - [02/Jun/2017:18:37:07 +0800] "GET /DemoWebJEE/ServletOne?A=hello&B=Bye HTTP/1.1" 200 210
