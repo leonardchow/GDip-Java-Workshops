@@ -57,8 +57,7 @@ public class TestMemberByJPA {
 		em.close();
 		PersistenceManager.INSTANCE.close();
 		
-		// ==> StackOverflow about searching by name
-		// https://stackoverflow.com/questions/4732955/java-jpa-search-user-in-database-by-first-and-last-name-return-too-many-resul
+		
 
 	}
 

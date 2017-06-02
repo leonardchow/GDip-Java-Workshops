@@ -1223,3 +1223,11 @@
 2017-06-01 21:02:20,411 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/MavenJPATest/src/main/resources
 2017-06-01 21:02:20,413 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-06-01 21:02:20,413 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/MavenJPATest/src/test/resources
+2017-06-01 21:05:41,992 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 21:05:41,992 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/MavenJPATest/src/main/resources
+2017-06-01 21:05:41,994 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 21:05:41,994 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/MavenJPATest/src/test/resources
+2017-06-01 21:16:55,993 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 21:16:55,996 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/MavenJPATest/src/main/resources
+2017-06-01 21:16:55,999 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 21:16:55,999 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/Java Workshops/MavenJPATest/src/test/resources
