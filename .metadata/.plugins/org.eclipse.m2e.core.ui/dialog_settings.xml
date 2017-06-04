@@ -26,12 +26,15 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="DemoWebJEE"/>
 			<item value="MavenJPATest"/>
 		</list>
 		<list key="name">
+			<item value="DemoWebJEE"/>
 			<item value="MavenJPATest"/>
 		</list>
 		<list key="artifactId">
+			<item value="DemoWebJEE"/>
 			<item value="MavenJPATest"/>
 		</list>
 		<list key="version">

@@ -2,6 +2,8 @@ package com.leonardchow.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Iterator;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,6 +11,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.leonardchow.data.StaffDAOImpl;
+import com.leonardchow.model.Staff;
 
 /**
  * Servlet implementation class FirstServlet
@@ -36,6 +41,11 @@ public class FirstServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		List<Staff> staff = new StaffDAOImpl().getAllStaff();
+		
+		String listItemTemplate = "<LI>%s</LI>";
+		
 		PrintWriter out = response.getWriter();
 		
 		String infoA = request.getParameter("A");
@@ -51,6 +61,10 @@ public class FirstServlet extends HttpServlet {
 		out.println("<LI>Some text</LI>");
 		out.println("<LI>" + infoA + "</LI>");
 		out.println("<LI>" + infoB + "</LI>");
+		
+		for (Staff staffMember : staff) {
+			out.println(String.format(listItemTemplate, staffMember.getName()));
+		}
 		out.println("<LI>More text</LI>");
 		out.println("</OL>");
 		

@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<item value="MIXED" key="ResetTargetSelectionDialog.resetType"/>
 	<list key="EGit.KnownHosts">
-		<item value="bitbucket.org"/>
 		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
 		<item value="github.com"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/suriarasai/SA44.git"/>
+		<item value="file:////Users/leonardchow/Dropbox/GDip in Systems Analysis 2017/Java Eclipse Projects/git/SA44"/>
 		<item value="https://github.com/leonardchow/GDip-Java-HelloWorld.git"/>
 	</list>
 	<list key="CommitDialog.authorValues">

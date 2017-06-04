@@ -1,0 +1,32 @@
+package com.leonardchow.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "staff_list")
+public class Staff {
+	
+	@Id
+	@Column(name = "staff_id")
+	private int staffId;
+	private String name;
+	@Column(name = "contact_no")
+	private int contactNo;
+	private String email;
+	@Column(name = "home_address")
+	private String homeAddress;
+	private String designation;
+	@Column(name = "a_leave")
+	private int aLeave;
+	@Column(name = "m_leave")
+	private int mLeave;
+	@Column(name = "c_leave")
+	private int cLeave;
+	@Column(name = "reports_to")
+	private int reportsTo;
+	@Column(name = "reports_to")
+	private int totalHoursClaimed;
+}
