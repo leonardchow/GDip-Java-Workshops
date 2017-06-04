@@ -1,0 +1,27 @@
+package com.leonardchow.data;
+
+import java.util.Arrays;
+
+import javax.persistence.EntityManager;
+
+import com.leonardchow.model.Staff;
+import com.leonardchow.persistence.PersistenceManager;
+
+public class LapsEntity implements AutoCloseable {
+	
+	private EntityManager lapsEntity;
+	
+	public LapsEntity() {
+		lapsEntity = PersistenceManager.INSTANCE.getEntityManager();
+	}
+	
+	public void beginTransaction() {
+		lapsEntity.getTransaction().begin();		
+	}
+	
+	public void close() throws Exception {
+		lapsEntity.close();
+		PersistenceManager.INSTANCE.close();		
+	}
+	
+}

@@ -1,0 +1,28 @@
+package com.leonardchow.data;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import com.leonardchow.model.Staff;
+
+public class StaffDAOImpl {
+
+	public StaffDAOImpl() {
+		super();
+	}
+
+	public List<Staff> getAllStaff() {
+		Staff[] staff = null;
+		try (LapsEntity context = new LapsEntity()) {
+			EntityManager em = context.getEntityManager();
+
+			// ==> Find all members
+			String string = "SELECT m FROM " + Staff.class.getName() + " m";
+			staff = (Staff[]) em.createQuery(string).getResultList().toArray();
+		}
+		
+		return Arrays.asList(staff);
+	}
+}

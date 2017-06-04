@@ -1,0 +1,3 @@
+INSERT INTO `laps`.`staff_list` (`name`, `contact_no`, `email`, `home_address`, `designation`, `a_leave`, `m_leave`, `c_leave`) VALUES ('Peter Lim', '987654321', 'pl@iss.com', '19 Place Road', 'Lecturer', '16', '60', '0');
+INSERT INTO `laps`.`staff_list` (`name`, `contact_no`, `email`, `home_address`, `designation`, `a_leave`, `m_leave`, `c_leave`) VALUES ('Sandy Weng', '12345678', 'sw@iss.com', '20 Icarus Blvd', 'Course Admin', '14', '60', '0');
+INSERT INTO `laps`.`staff_list` (`name`, `contact_no`, `email`, `home_address`, `designation`, `a_leave`, `m_leave`, `c_leave`, `reports_to`) VALUES ('Gregory Tan', '12332145', 'gt@iss.com', '15 Time Street', 'Admin Executive', '14', '60', '0', '2');

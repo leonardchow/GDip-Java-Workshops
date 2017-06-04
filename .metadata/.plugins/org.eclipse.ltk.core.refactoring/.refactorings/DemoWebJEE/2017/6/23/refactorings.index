@@ -1,0 +1,6 @@
+1496564690366	Rename local variable 'members'
+1496564706983	Rename local variable 'member'
+1496567636446	Rename resource 'META-INF'
+1496567704026	Rename resource 'META-INFXX'
+1496567724653	Move 'persistence.xml' to 'META-INF'
+1496567768333	Move 'persistence.xml' to 'META-INF'
